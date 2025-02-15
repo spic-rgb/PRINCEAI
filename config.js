@@ -165,7 +165,7 @@ const ownervb = process.env.OWNER_NUMBER;
 if (!ownervb){
    throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
 }
-
+Owner number = "263719495067, Prince"
 const ownerlist = ownervb.split(',');
 
 global.owner = [];
